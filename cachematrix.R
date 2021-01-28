@@ -39,8 +39,8 @@ makeCacheMatrix <- function(x = matrix()) {
 ## created with makeCacheMatrix 
 ## 
 ## It will return the inverse of the matrix stored in the 
-## object (x) first by checking the cached value, if no cached matrix
-## is found, one is calculated, stored, then returned
+## object (x) first by checking the cached value, if no cached inverse 
+## matrix is found, one is calculated, stored, then returned
 
 
 cacheSolve <- function(x, ...) {
